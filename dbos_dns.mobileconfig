@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <!-- خادم DNS مشفر متوافق مع الحجب وبدون VPN -->
+                <key>ServerURL</key>
+                <string>https://dns.adguard-dns.com/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>94.140.14.14</string>
+                    <string>94.140.15.15</string>
+                </array>
+            </dict>
+            <key>PayloadIdentifier</key>
+            <string>com.dbos.dns.settings</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>d1b0s123-4567-89ab-cdef-0123456789ab</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+
+    <key>PayloadDisplayName</key>
+    <string>dbos dns</string>
+    <key>PayloadOrganization</key>
+    <string>dbos</string>
+    <key>PayloadDescription</key>
+    <string>Anti-Revoke, Blacklist Bypass &amp; AdBlock profile configured safely for ESign and GitHub Signer.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.dbos.dns.profile</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>db0s9876-5432-10fe-dcba-9876543210fe</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
