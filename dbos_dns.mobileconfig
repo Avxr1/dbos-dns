@@ -9,7 +9,6 @@
             <dict>
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
-                <!-- خادم DNS مشفر متوافق مع الحجب وبدون VPN -->
                 <key>ServerURL</key>
                 <string>https://dns.adguard-dns.com/dns-query</string>
                 <key>ServerAddresses</key>
@@ -34,7 +33,7 @@
     <key>PayloadOrganization</key>
     <string>dbos</string>
     <key>PayloadDescription</key>
-    <string>Anti-Revoke, Blacklist Bypass &amp; AdBlock profile configured safely for ESign and GitHub Signer.</string>
+    <string>Fast AdBlock DNS profile safely configured for ESign and GitHub.</string>
     <key>PayloadIdentifier</key>
     <string>com.dbos.dns.profile</string>
     <key>PayloadType</key>
@@ -44,4 +43,5 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
+</plist>
 </plist>
