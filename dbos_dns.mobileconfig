@@ -22,12 +22,11 @@
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
-            <string>d1b0s123-4567-89ab-cdef-0123456789ab</string>
+            <string>1D7A13C2-8B2E-4D78-9B31-0123456789AB</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
     </array>
-
     <key>PayloadDisplayName</key>
     <string>dbos dns</string>
     <key>PayloadOrganization</key>
@@ -39,9 +38,8 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>db0s9876-5432-10fe-dcba-9876543210fe</string>
+    <string>3C9B812E-5F32-411C-A987-9876543210FE</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
-</plist>
 </plist>
